@@ -76,7 +76,7 @@
 		}
 		function check() {
 			var serial = document.getElementById("sn").value;
-			alert("Можливі моделі: " + (modelMappings[serial.substring(0,3)] || "невідомо") + "\n" + "Період виробництва: " + (monthMappings[serial.substring(5,6)] || "невідомий місяць") + " " + (yearMappings[serial.substring(4,5)] || "невідомого року"));
+			alert("Можливі моделі: " + (modelMappings[serial.substring(0,3)] || "невідомо") + "\n\n" + "Період виробництва: " + (monthMappings[serial.substring(5,6)] || "невідомий місяць") + " " + (yearMappings[serial.substring(4,5)] || "невідомого року"));
 		}
 	</script>
 </html>
